@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<style>
+   #animate {
+      width: 100px;
+      height: 100px;
+      /* border-radius: 50%; */
+      position: absolute;
+      background-color: red;
+      margin-left: 40%;
+   }
+</style>
+
+<body>
+
+   <div id="animate" onclick="myMove()">Javascript</div>
+   </div>
+
+   <script>
+      function myMove() {
+         var elem = document.getElementById("animate");
+         var pos = 5;
+         var id = setInterval(frame, 10);
+         function frame() {
+            if (pos == 556) {
+               clearInterval(id);
+            } else {
+               pos++;
+               elem.style.top = pos + "px";
+               elem.style.bottom =  pos + "px";
+            }
+         }
+      }
+   </script>
+
+</body>
+
+</html>

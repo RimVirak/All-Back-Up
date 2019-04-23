@@ -1,0 +1,7 @@
+Quite last of PHP 
+
+ > SPA Stand for Single Page Organization
+ > SEO Stand for Search Engine Optimization
+ > Broweser is Interprater
+ > POS stand for  Point of sale
+ > SDLC stand for Software Development Life Cycle
